@@ -1,0 +1,24 @@
+{
+	"status": "success",
+	"title": "Food ordering application",
+	"link": "projects/Chinese-girl-posing.html",
+	"content": "This product is a idea of the 2018. Which has been implemented through an platform named Foodgram, A running interactive platform for ios and android where users can see find nearest restaurant and grocery shops, can share their food images and can create an foodies community based on interests.",
+	"date": "<span class=\"atail-project-date\"><span class=\"atail-proj-date-text\">Finished </span><span class=\"atail-proj-date-value\">- 22 Jun 2016</span></span>",
+	"thumbnail": "<img width=\"1200\" height=\"911\" src=\"img/project-preview/Foodgram-appscreen.jpg\" alt=\"pexels-photo-69494\" />",
+	"thumbnail_url": "img/project-preview/Foodgram-appscreen.jpg",
+	"positions": null,
+	"token": "865fc8f5ec",
+	"participants": "<span class=\"post-content-footer-title\">Participants</span>",
+	"slides": [
+		{
+			"src": {
+				"img": "img/project-preview/Foodgram-appscreen.jpg",
+				"title": "",
+				"text": "",
+				"fit": "cover"
+			},
+			"fit": "cover",
+			"type": "image"
+		}
+	]
+}
