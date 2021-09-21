@@ -6360,8 +6360,6 @@ figure p {
 
 label {
   -user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
   cursor: pointer;
   font: bold .875rem/1.2 Montserrat;
   color: #4e5c60;
@@ -6563,8 +6561,6 @@ div.cs-select {
 
 div.cs-select .cs-placeholder {
   -user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
   cursor: pointer;
   display: inline-block;
   width: 100%;
@@ -7661,7 +7657,6 @@ h2 a {
   height: 100%;
   overflow: hidden;
   padding: 0 20px;
-  vertical-align: middle;
   text-overflow: ellipsis;
 }
 
@@ -8359,7 +8354,7 @@ p > img {
   height: 100%; 
   -webkit-transition: width .6s ease;
   transition: width .6s ease;
-  background-color: blue;
+  background-color: #7F7F7F;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -8426,7 +8421,7 @@ p > img {
   margin: 0 2px;
   border: 1px solid transparent;
   border-radius: 50%;
-  background-color: blue;
+  background-color: #7F7F7F;
 }
 
 .atail-dot.start-animation {

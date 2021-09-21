@@ -4,12 +4,12 @@
 }
 
 .nav-list > li > ul {
-    background-color: #00H;
+    background-color: #404040;
 }
 
 @media (max-width: 991px) {
     nav.row {
-        background-color: #00H;
+        background-color: #404040;
     }
 }
 
@@ -85,7 +85,7 @@ a, .post-content-info > a, .post-content-likes .blog-count-likes, .post-content-
 }
 
 .atail-slider h1 a:hover, .atail-slider-item .blog-author span:hover, .atail-slider-item .blog-date span:hover, a:hover, .side-content a:hover, .blog-category a:hover, a.blog-date:hover, .content-info-date a:hover, .post-content-info > a.blog-category-link:hover, .post-content-likes .blog-count-likes:hover, .post-content-tags a[rel="tag"]:hover, .post-sidebar .widget li a:hover {
-    color: #1957f3;
+    color: #7F7F7F;
 }
 
 .comment-navigation > h2,
@@ -114,7 +114,7 @@ a.prev.page-numbers,
     }
 
     .nav-list > li > a:hover span:last-child, .nav-list > li.current-menu-item > a > span:last-child {
-        color: #1957f3;
+        color: #7F7F7F;
     }
 
     .nav-list > li > a > .nav-list-counter {
@@ -122,11 +122,11 @@ a.prev.page-numbers,
     }
 
     .nav-list > li.menu-item-has-children:hover > a > span:last-child, .nav-list > li.more-links:hover > a > span:last-child {
-        color: #0a3ab1;
+        color: #7F7F7F;
     }
 
     .nav-list > li:hover.menu-item-has-children {
-        background-color: #00H;
+        background-color: #404040;
     }
 }
 
@@ -188,7 +188,7 @@ a.prev.page-numbers,
 }
 
 .atail-team-follow a:hover {
-    color: #1957f3;
+    color: #7F7F7F;
 }
 
 .atail-post-comments-wrapper:before {
@@ -264,12 +264,12 @@ ul ol li:before, ol ul li:before, ol li:before {
 }
 
 a.button:link, button, input[type^="submit"], input[type^="button"], button:not([data-action^="close-nav"]) {
-    background-color: #1957f3;
+    background-color: #7F7F7F;
     color: #FFF;
 }
 
 a.button:hover, button:hover, input[type^="submit"]:hover, input[type^="button"]:hover, button:not([data-action^="close-nav"]):hover {
-    background-color: #1d4dc7;
+    background-color: #404040;
     color: #FFF;
 }
 
@@ -315,11 +315,11 @@ button.no-button:hover {
 }
 
 .atail-preloader {
-    background-color: #00H;
+    background-color: #404040;
 }
 
 .atail-dot {
-    background-color: #00H;
+    background-color: #404040;
 }
 
 .atail-preloader .atail-dot {
@@ -327,8 +327,8 @@ button.no-button:hover {
 }
 
 .tagcloud a {
-    border-color: #1957f3;
-    color: #1957f3;
+    border-color: #7F7F7F;
+    color: #7F7F7F;
 }
 
 .atail-dark-footer .tagcloud a {
@@ -337,17 +337,17 @@ button.no-button:hover {
 }
 
 .atail-dark-footer .tagcloud a:hover {
-    background-color: #1957f3;
-    border-color: #1957f3;
+    background-color: #7F7F7F;
+    border-color: #7F7F7F;
 }
 
 .tagcloud a:hover {
-    background-color: #1957f3;
-    border-color: #1957f3;
+    background-color: #7F7F7F;
+    border-color: #7F7F7F;
 }
 
 #today {
-    background-color: #1957f3;
+    background-color: #7F7F7F;
     color: #FFF;
 }
 
@@ -521,7 +521,7 @@ div.cs-select .cs-options ul {
 }
 
 .preview-article-header > h2 > a:hover {
-    color: #1957f3;
+    color: #7F7F7F;
 }
 .recentcomments a {
     display: inline !important;
