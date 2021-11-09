@@ -41,8 +41,15 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+
 body {
   margin: 0;
+   cursor: url('../img/pointer/logo.svg'),auto;
+   /*cursor: url(logo-pointer.svg),pointer;*/
+}
+
+a:-webkit-any-link {
+    cursor: url('../img/pointer/logo-pointer.svg'),pointer;
 }
 
 article,
