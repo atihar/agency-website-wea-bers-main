@@ -1,0 +1,26 @@
+
+.title-wapper {
+    position: relative;
+    width: fit-content;
+
+    .line,
+    .line-before {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        left: 100%;
+        clip-path: inset(0 60px 0 60px);
+        background-color: rgba(255, 255, 255, 0.2);
+        transform-origin: left center 0px;
+
+        &.line-before {
+            left: -100%;
+            transform-origin: right center 0px;
+        }
+
+        @include media_991 {
+            display: none;
+        }
+    }
+}
