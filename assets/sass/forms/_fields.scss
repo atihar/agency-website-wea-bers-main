@@ -1,0 +1,27 @@
+input,
+textarea,
+.form-control,
+.form-box input,
+.form-box textarea {
+  &::placeholder {
+    color: $heading-color;
+  }
+}
+
+input[type="search"] {
+  &::-webkit-search-decoration {
+    display: none;
+  }
+}
+
+input[type="submit"] {
+  color: $heading-color;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 30px;
+  padding: 15px;
+  cursor: pointer;
+}

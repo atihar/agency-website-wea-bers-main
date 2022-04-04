@@ -1,0 +1,17 @@
+/* -------------------------------------------------------
+                   Header
+-------------------------------------------------------- */
+
+@import "project-header";
+@import "header-pages";
+@import "header-post";
+
+
+.dsn-header-parallax {
+  position: relative;
+  overflow: hidden;
+
+  .has-bigger-scale{
+    transform: scale(1.2);
+  }
+}

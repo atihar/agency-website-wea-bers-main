@@ -1,0 +1,145 @@
+/* -------------------------------------------------------
+                   Footer
+-------------------------------------------------------- */
+.footer {
+  position: relative;
+
+  .footer-top {
+    padding-bottom: 30px;
+    border-bottom: 1px solid $border-color;
+  }
+
+  .copyright-social {
+    padding: 30px 0;
+
+    @include media_768 {
+      flex-flow: column;
+    }
+
+    .copright-text {
+      font-family: $heading-font;
+      font-size: 14px;
+
+      @include media_768 {
+        order: 2;
+        margin-top: 15px;
+      }
+    }
+
+    .footer-social {
+      ul {
+        margin: 0;
+
+        li {
+          color: $heading-color;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 500;
+          margin-right: 15px;
+          padding-right: 5px;
+
+          &:first-of-type {
+            padding-left: 0;
+          }
+
+          a {
+            position: relative;
+            color: $heading-color;
+            display: inline-block;
+            letter-spacing: 2px;
+            font-size: 13px;
+            font-family: $heading-font;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-block-item {
+    .title-footer {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 3px;
+    }
+
+    p,
+    a {
+      font-family: $heading-font;
+      font-size: 14px;
+    }
+  }
+
+  .scroll-top {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    @include media_768 {
+      display: none;
+    }
+
+    img {
+      width: 60px;
+    }
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
+
+body.v-dark,
+.footer.v-dark {
+  .logo-footer {
+    img {
+      &.logo-dark {
+        display: block;
+      }
+
+      &.logo-light {
+        display: none;
+      }
+    }
+  }
+}
+
+body.v-light,
+.footer.v-light {
+  .logo-footer {
+    img {
+      &.logo-dark {
+        display: none;
+      }
+
+      &.logo-light {
+        display: block;
+      }
+    }
+  }
+}
+
+.animation-rotate img {
+  -webkit-animation: rotate 15s linear infinite;
+  animation: rotate 15s linear infinite;
+}
+
+@include keyframes(rotate) {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
